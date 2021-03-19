@@ -1,8 +1,23 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/kvasilitsev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kvasilitsev/frontend-project-lvl1/actions)",
   "main": "index.js",
+  "bin": {
+    "code": "brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,19 +25,10 @@
     "type": "git",
     "url": "git+https://github.com/kvasilitsev/frontend-project-lvl1.git"
   },
-  "author": "Konstantin Vasilitsev",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kvasilitsev/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/kvasilitsev/frontend-project-lvl1#readme",
-  "devDependencies": {
-    "eslint": "^7.22.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-config-rallycoding": "^3.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
-  }
+  "homepage": "https://github.com/kvasilitsev/frontend-project-lvl1#readme"
 }
