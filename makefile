@@ -1,5 +1,5 @@
 install: # install dependencies
-	npm install
+	npm ci
 
 brain-games: #start project
 	node bin/brain-games.js
