@@ -12,13 +12,12 @@ export const gameLogic = (rules, gameData) => {
     const answerAndQuestion = gameData();
     const question = car(answerAndQuestion);
     const correctAnswer = cdr(answerAndQuestion);
-
     console.log(`\nQuestion: ${question}`);
     const answer = readlineSync.question('Your answer: ');
-
     if (answer === correctAnswer) {
       console.log('Correct!');
-    } else {
+    } 
+    else {
       console.log(`'${answer}' is wrong answer :(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;

@@ -5,9 +5,9 @@
   "description": "[![Actions Status](https://github.com/kvasilitsev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kvasilitsev/frontend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
-    "code": "brain-games.js",
-    "brain-games": "frontend-project-lvl1/bin/brain-games.js",
-    "brain-even": "frontend-project-lvl1/bin/brain-even.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
@@ -32,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/kvasilitsev/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/kvasilitsev/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/kvasilitsev/frontend-project-lvl1#readme",
+  "devDependencies": {}
 }
