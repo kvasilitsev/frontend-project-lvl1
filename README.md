@@ -3,4 +3,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/38399c0ae156cc4258c4/maintainability)](https://codeclimate.com/github/kvasilitsev/frontend-project-lvl1/maintainability)
 [![workflow](https://github.com/kvasilitsev/frontend-project-lvl1/actions/workflows/node.js.yml/badge.svg)](https://github.com/kvasilitsev/frontend-project-lvl1/actions/workflows/node.js.yml)
 
-https://asciinema.org/a/tGutbKxTalI8rTpmyDyikKAd2
+[Brain-even](https://asciinema.org/a/tGutbKxTalI8rTpmyDyikKAd2)
+[Brain-calc](https://asciinema.org/a/rTqili5hj03JNPZTSLQZZBeJc)
