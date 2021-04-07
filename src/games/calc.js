@@ -12,18 +12,16 @@ const gameData = () => {
     if (getOpeartor < 0.34){
         correctAnswer = String(operand1 + operand2);
         question = `${operand1}+${operand2}`;
-        return cons(question, correctAnswer);
     }
     else if (getOpeartor < 0.66 && getOpeartor >= 0.34){
         correctAnswer = String(operand1 - operand2);
         question = `${operand1}-${operand2}`;
-        return cons(question, correctAnswer);
     }
     else {
         correctAnswer = String(operand1 * operand2);
         question = `${operand1}*${operand2}`;
-        return cons(question, correctAnswer);
     }
+    return cons(question, correctAnswer);
 }
 
 export default () => {
