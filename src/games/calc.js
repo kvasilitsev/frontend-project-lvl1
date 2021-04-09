@@ -12,10 +12,12 @@ const gameData = () => {
   const getOpeartor = Math.random();
   if (getOpeartor < 0.34) {
     correctAnswer = String(operand1 + operand2);
-    question = `${operand1} + ${operand2}`; }
+    question = `${operand1} + ${operand2}`;
+  }
   else if (getOpeartor < 0.66 && getOpeartor >= 0.34) {
     correctAnswer = String(operand1 - operand2);
-    question = `${operand1} - ${operand2}`; }
+    question = `${operand1} - ${operand2}`;
+  }
   else {
     correctAnswer = String(operand1 * operand2);
     question = `${operand1} * ${operand2}`;
