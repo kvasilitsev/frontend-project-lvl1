@@ -12,8 +12,8 @@ const gameData = () => {
   const number1 = getRandomInt();
   const number2 = getRandomInt();
 
-  let correctAnswer = String(NOD(number1, number2));
-  const question = `${number1} ${number2}`;        
+  const correctAnswer = String(NOD(number1, number2));
+  const question = `${number1} ${number2}`;
   return cons(question, correctAnswer);
 };
 export default () => {
