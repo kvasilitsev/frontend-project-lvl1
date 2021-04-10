@@ -1,6 +1,6 @@
 import { cons } from '@hexlet/pairs';
 import { getRandomInt } from '../functions.js';
-import { gameLogic } from '../index.js';
+import gameLogic from '../index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 const NOD = (x, y) => {
